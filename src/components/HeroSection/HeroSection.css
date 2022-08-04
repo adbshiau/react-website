@@ -34,14 +34,19 @@ video {
 
 .hero-btns {
     margin-top: 32px;
+    color: #fff;
 }
 
-.hero-btns .btn {
-    margin: 6px;
+.hero-btns > a {
+    color: inherit;
 }
 
-.fa-play-circle {
-    margin-left: 4px;
+.fa-github {
+    margin-right: 20px;
+}
+
+.fa-linkedin {
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
@@ -64,9 +69,5 @@ video {
     .btn-mobile {
         display: block;
         text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
     }
 }
